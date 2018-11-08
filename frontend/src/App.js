@@ -28,7 +28,7 @@ class App extends Component {
   };
 
   handleSubmit = event => {
-    fetch('http://localhost:8000/add/' + this.state.newTodo);
+    fetch('http://localhost:8000/add/' + this.state.remove);
     this.setState({ newTodo: "" });
   };
 
